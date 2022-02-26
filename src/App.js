@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <AddProduct form={form} setForm={setForm} />
-      <ListProducts form={form} />
+      <ListProducts form={form} setForm={setForm} />
     </>
   );
 }
