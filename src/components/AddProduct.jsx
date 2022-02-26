@@ -1,8 +1,7 @@
 import { useState } from "react";
 
-function AddProduct() {
+function AddProduct({form, setForm}) {
   const [text, setText] = useState("");
-  const [form, setForm] = useState([]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
